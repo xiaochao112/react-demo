@@ -1,8 +1,8 @@
 import './var.less';
-import { Button } from 'antd';
 import { userInfo } from '@/store/user/type';
 import { useStateUserInfo, useDispatchUser } from '@/store/hook';
 import { useEffect } from 'react';
+import MyRouter from '@/router';
 
 type setUserInfoType = {
   stateSetUser: (info: userInfo) => {
@@ -35,6 +35,7 @@ function App() {
   return (
     <>
       <p>{userInfo.username}</p>
+      <MyRouter />
     </>
   );
 }
