@@ -1,13 +1,16 @@
 ## react基础项目demo
-node版本大于v16
+
+> node版本大于v16
+
 主要技术：
 
 - react + ts + vite
-- Ant Design 组件库[官网](https://4x.ant.design/docs/react/introduce-cn)
+- Ant Design 组件库 [官网地址](https://4x.ant.design/docs/react/introduce-cn)
 - redux 状态管理
+- react-router-dom 路由导航
 - eslint 代码校验
 - Prettier 美化代码
-- tailwindCss样式库[官网](https://tailwind.nodejs.cn/docs/installation)
+- tailwindCss样式库 [官网地址](https://tailwind.nodejs.cn/docs/installation)
 - husky git提交代码规范（未完成）
 
 依赖库：
